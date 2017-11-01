@@ -1,0 +1,157 @@
+.example-card {
+  width: 80%;
+  background-color: whitesmoke;
+}
+
+.example-header-image {
+  background-image: url('http://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.header-view {
+  font-size: x-large;
+  font-family: "arial";
+  color: white;
+  text-align: center;
+  padding-left:550px;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  min-width: 300px;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+mat-card {
+  max-width:73%;
+  margin: 2em auto;
+  text-align: center;
+}
+
+mat-toolbar-row {
+  justify-content: space-between;
+}
+
+.done {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+}
+.mat-drawer.mat-drawer-side {
+  z-index: 2;
+}
+.docs-component-viewer-sidenav {
+  padding-bottom: 72px;
+  width: 240px;
+  bottom: 0;
+  overflow: auto;
+  height: 100%;
+}
+.docs-component-viewer-sidenav, .docs-component-viewer-sidenav.mat-sidenav-opened {
+  box-shadow: 3px 0 6px rgba(0,0,0,.24);
+}
+.mat-drawer {
+  position: relative;
+  z-index: 4;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+  min-width: 5vw;
+  outline: 0;
+  box-sizing: border-box;
+  overflow-y: auto;
+  transform: translate3d(-100%,0,0);
+}
+.docs-component-viewer-sidenav {
+  padding-bottom: 72px;
+  width: 240px;
+  bottom: 0;
+  overflow: auto;
+  height: 100%;
+}
+.docs-component-viewer-sidenav-container {
+  width: 100%;
+}
+.mat-drawer-container {
+  background-color: #fafafa;
+  color: rgba(0,0,0,.87);
+}
+.mat-drawer-backdrop {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: block;
+  z-index: 3;
+  visibility: hidden;
+}
+.cdk-visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.menu-header {
+  font-size: large;
+  font-family: Arial;
+  color: grey;
+  text-align: center;
+  padding-left:65px;
+}
+.list-view-style {
+  font-size: medium;
+  font-family: Arial;
+  color: black;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.menu-button-view {
+  width: 85%;
+  margin-left: 15px;
+  font-size: large;
+  margin-bottom: 15px;
+  background-color: #3f51b5;
+  border-radius: 25px;
+}
+.menu-button-head {
+  width: 100%;
+  font-size: large;
+  margin-bottom: 15px;
+}
